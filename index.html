@@ -1,3 +1,146 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Diogo Saraiva</title><link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"><script src="https://unpkg.com/scrollreveal"></script><link rel="stylesheet" href="css/main.min.css"></head><body><div class="wrapper"><section id="mobile-nav"><div class="mobile-links"><a href="index.html" id="mobile-brand">Diogo Saraiva / Filmmaker and Photographer</a> <i class="ri-menu-3-line" id="menu-toggle"></i></div></section></div><div class="mobile-nav__body"><a href="index.html" class="nav-link hover-underline-animation" id="trabalhos__mobile">Trabalhos</a> <a href="contact.html" class="nav-link hover-underline-animation" id="contactos__mobile">Contato</a></div><section id="header-nav"><div class="nav-links"><a href="index.html" class="nav-link" id="brand">Diogo Saraiva / Filmmaker and Photographer</a> <a href="index.html" class="nav-link active" style="margin-right: 1rem;" id="trabalhos__nav">Trabalhos</a> <a href="contact.html" class="nav-link hover-underline-animation" id="contactos__nav">Contato</a> <a href="#" class="nav-toggle"><i class="ri-menu-line"></i></a></div></section><div class="wrapper"><section id="showcase"><a class="photo" id="places" href="places.html"><h1>Places</h1></a><a class="photo" id="people" href="people.html"><h1>People</h1></a><a class="photo" id="beach" href="beach.html"><h1>Beach</h1></a><a class="photo" id="watches" href="watches.html"><h1>Watches</h1></a></section></div><div class="wrapper"><section id="about"><div class="inner-section"><h1>Sobre.</h1><h4>Tudo começa com uma ideia. Talvez você queira abrir um negócio. Talvez você queira transformar um passatempo em algo mais sério. Ou talvez você tenha um projeto criativo para compartilhar com o mundo. O que quer que seja, a forma como você conta sua história on-line pode fazer toda a diferença.</h4></div></section></div><div class="wrapper"><footer id="footer"><a href="#">@diogosaraiva</a></footer></div><script src="js/main.min.js"></script><script>ScrollReveal().reveal('.nav-links')
-        ScrollReveal().reveal('#showcase', {delay: 500,  distance: '30%', duration: 1000})
-        ScrollReveal().reveal('#about', {delay: 200, distance: '30%', duration: 1000})</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Diogo Saraiva - Photographer and Filmmaker</title>
+</head>
+<body>
+    <section id="scrollup">
+        <div class="wrapper-large">
+            <a href="#navigation" id="scrollup-btn">
+                <i class="ri-arrow-up-s-line"></i>
+            </a>
+        </div>
+    </section>
+
+
+
+
+    
+    <section id="navigation">
+        <div class="wrapper-large">
+            <nav id="mobile-nav">
+
+                <div id="mobile-nav-header">
+                    <a href="index.html" id="brand">
+                        Diogo Saraiva / Filmmaker and Photographer
+                    </a>
+                    
+                    <div id="nav-toggle">
+                        <div class="btn-line close"></div>
+                        <div class="btn-line close"></div>
+                        <div class="btn-line close"></div>
+                    </div>
+                </div>
+
+                <div class="mobile-nav-body">
+                    <div class="mobile-nav-body__links">
+                        <a href="index.html" id="work" class="underline-animation">
+                            Trabalho
+                        </a>
+                        <a href="contact.html" id="contact" class="underline-animation">
+                            Contato
+                        </a>
+                    </div>
+                </div>
+                
+            </nav>
+
+            <nav id="desktop-nav">
+                <a href="index.html" id="brand">
+                    Diogo Saraiva / Filmmaker and Photographer
+                </a>
+                <a href="index.html" id="work" class="active">
+                    Trabalho
+                </a>
+                <a href="contact.html" id="contact" class="underline-animation">
+                    Contato
+                </a>
+            </nav>
+
+        </div>
+    </section>
+    
+
+
+
+
+    <section id="home-showcase">
+
+        <div id="showcase-grid" class="wrapper">
+            <a href="places.html" class="grid-tile" id="places">
+                <div class="tile-title">
+                    <h1>Places</h1>
+                </div>
+            </a>
+            <a href="people.html" class="grid-tile" id="people">
+                <div class="tile-title">
+                    <h1>People</h1>
+                </div>
+            </a>
+            <a href="beach.html" class="grid-tile" id="beach">
+                <div class="tile-title">
+                    <h1>Beach</h1>
+                </div>
+            </a>
+            <a href="watches.html" class="grid-tile" id="watches">
+                <div class="tile-title">
+                    <h1>Watches</h1>
+                </div>
+            </a>
+            <a href="motion.html" class="grid-tile" id="motion">
+                <div class="tile-title">
+                    <h1>Motion</h1>
+                </div>
+            </a>
+            <a href="javascript:void(0)" class="grid-tile" id="soon">
+                    <h1>...</h1>
+            </a>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="about">
+        <div class="wrapper">
+            <h3>
+                Sobre.
+            </h3>
+
+            <h1>
+                Tudo começa com uma ideia. Talvez você queira abrir um negócio. Talvez você queira transformar um passatempo em algo mais sério. Ou talvez você tenha um projeto criativo para compartilhar com o mundo. O que quer que seja, a forma como você conta sua história on-line pode fazer toda a diferença.
+            </h1>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="footer">
+        <footer class="wrapper">
+            <a href="https://www.instagram.com/diogosaraiva__/" target="_blank" id="instagram-footer">   
+                <i class="ri-instagram-line"></i>
+            </a>
+
+            <div id="copyright">
+                <small>&copy; Diogo Saraiva 2021 - Todos os Direitos Reservados</small>
+            </div>
+        </footer>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

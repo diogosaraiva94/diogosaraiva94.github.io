@@ -1,0 +1,20 @@
+#footer {
+    padding: 2.5rem 0 5rem;
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #instagram-footer {
+        margin-bottom: 2.5rem;
+        font-size: 3rem;
+        color: $main-color;
+        &:hover {
+            opacity: .6;
+            color: $instagram;
+            transform: scale(1.2);
+        }
+    }
+}

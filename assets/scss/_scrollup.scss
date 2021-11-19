@@ -1,0 +1,29 @@
+
+#scrollup {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    z-index: 10000;
+    cursor: pointer;
+    display: none;
+
+    #scrollup-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include ease;
+        &:hover {
+            transform: scale(1.15);
+        }
+        
+        i {
+            color: #ffffff;
+            font-size: 2.5rem;
+            background: $main-color;
+            padding: .5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
