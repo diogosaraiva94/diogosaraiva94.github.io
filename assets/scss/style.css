@@ -40,7 +40,7 @@ h6 {
 
 @media only screen and (max-width: 960px) {
   .wrapper {
-    width: 75%;
+    width: 85%;
   }
 }
 
@@ -52,7 +52,7 @@ h6 {
 
 @media only screen and (max-width: 960px) {
   .wrapper-large {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -86,7 +86,7 @@ h6 {
 
 #navigation #mobile-nav #mobile-nav-header #brand {
   width: 60%;
-  font-size: 2rem;
+  font-size: 7vw;
 }
 
 #navigation #mobile-nav #mobile-nav-header #nav-toggle {
@@ -274,6 +274,12 @@ h6 {
   transition: all .5s ease;
 }
 
+@media only screen and (max-width: 375px) {
+  #home-showcase #showcase-grid .grid-tile {
+    height: 520px;
+  }
+}
+
 #home-showcase #showcase-grid .grid-tile:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
@@ -295,6 +301,12 @@ h6 {
   height: 100%;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
+}
+
+@media only screen and (max-width: 375px) {
+  #home-showcase #showcase-grid .grid-tile .tile-title {
+    font-size: 2rem;
+  }
 }
 
 #home-showcase #showcase-grid .grid-tile .tile-title:hover {
@@ -325,7 +337,7 @@ h6 {
   background-size: cover;
 }
 
-#home-showcase #showcase-grid #motion {
+#home-showcase #showcase-grid #Film {
   background: url("https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80") no-repeat;
   background-position: center;
   background-size: cover;
@@ -407,6 +419,7 @@ h6 {
 @media only screen and (max-width: 960px) {
   #about h1 {
     font-size: 1.8rem;
+    text-align: left;
   }
 }
 
@@ -468,6 +481,13 @@ h6 {
   z-index: 10000;
   cursor: pointer;
   display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  #scrollup {
+    bottom: 3rem;
+    right: 1rem;
+  }
 }
 
 #scrollup #scrollup-btn {

@@ -6,6 +6,7 @@ ScrollReveal().reveal('#home-showcase', { delay: 500, distance: '30%', duration:
 ScrollReveal().reveal('#about', { delay: 100, distance: '30%', duration: 1500 });
 ScrollReveal().reveal('#contacts', { delay: 100, distance: '30%', duration: 1500 });
 ScrollReveal().reveal('#footer', { delay: 100, distance: '30%', duration: 1500 });
+ScrollReveal().reveal('.video-container', { delay: 100, distance: '30%', duration: 1500 });
 
 // CATEGORIES
 ScrollReveal().reveal('#category-header', { delay: 100, distance: '30%', duration: 1500 });
