@@ -86,7 +86,7 @@ h6 {
 
 #navigation #mobile-nav #mobile-nav-header #brand {
   width: 60%;
-  font-size: 7vw;
+  font-size: 2rem;
 }
 
 #navigation #mobile-nav #mobile-nav-header #nav-toggle {
@@ -173,7 +173,7 @@ h6 {
 
 #navigation #mobile-nav .mobile-nav-body .mobile-nav-body__links a {
   font-size: 2rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 #navigation #mobile-nav .show {
@@ -314,31 +314,31 @@ h6 {
 }
 
 #home-showcase #showcase-grid #places {
-  background: url("https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80") no-repeat;
+  background: url("../img/places/places-1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #home-showcase #showcase-grid #people {
-  background: url("https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80") no-repeat;
+  background: url("../img/people/people-3.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #home-showcase #showcase-grid #beach {
-  background: url("https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80") no-repeat;
+  background: url("../img/places/places-17.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #home-showcase #showcase-grid #watches {
-  background: url("https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80") no-repeat;
+  background: url("../img/watches/watches-12.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #home-showcase #showcase-grid #Film {
-  background: url("https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80") no-repeat;
+  background: url("../img/people/people-5.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
