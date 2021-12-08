@@ -86,7 +86,7 @@ h6 {
 
 #navigation #mobile-nav #mobile-nav-header #brand {
   width: 60%;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 #navigation #mobile-nav #mobile-nav-header #nav-toggle {
@@ -367,10 +367,33 @@ h6 {
   padding: 0 0 2.5rem 0;
 }
 
+#main-showcase #showcase-large {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #main-showcase #showcase-large {
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #main-showcase #showcase-large {
+    -ms-grid-columns: (auto)[1];
+        grid-template-columns: repeat(1, auto);
+  }
+}
+
 #main-showcase #showcase-large img {
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0 0 1rem 0;
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #main-showcase #showcase-large .video-container {
@@ -476,8 +499,8 @@ h6 {
 
 #scrollup {
   position: fixed;
-  bottom: 4rem;
-  right: 4rem;
+  bottom: 10%;
+  right: 5%;
   z-index: 10000;
   cursor: pointer;
   display: none;
@@ -485,8 +508,8 @@ h6 {
 
 @media only screen and (max-width: 375px) {
   #scrollup {
-    bottom: 3rem;
-    right: 1rem;
+    bottom: 10%;
+    right: 7.5%;
   }
 }
 
@@ -511,9 +534,9 @@ h6 {
 
 #scrollup #scrollup-btn i {
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 1.3rem;
   background: #000000;
-  padding: .5rem;
+  padding: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
