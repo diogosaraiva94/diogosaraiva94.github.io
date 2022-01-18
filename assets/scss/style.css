@@ -337,6 +337,12 @@ h6 {
   background-size: cover;
 }
 
+#home-showcase #showcase-grid #fashion {
+  background: url("../img/fashion/fashion-9.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #home-showcase #showcase-grid #Film {
   background: url("../img/people/people-5.jpg") no-repeat;
   background-position: center;
