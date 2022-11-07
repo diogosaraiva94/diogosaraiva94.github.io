@@ -1,12 +1,19 @@
-@import 'config';
-@import 'navigation';
-@import 'transitions';
-@import 'showcase';
-@import 'about';
-@import 'footer';
-@import 'bottomnav';
-@import 'scrollup';
-@import 'contacts';
+// LAYOUT
+@import "../scss/layout/layout";
+@import "../scss/layout/variables";
+@import "../scss/layout/base";
 
+// COMPONENTS
+@import "../scss/components/navigation";
+@import "../scss/components/buttons";
+@import "../scss/components/hero";
+@import "../scss/components/headings";
+@import "../scss/components/gallery";
+@import "../scss/components/footer";
 
+// SPECIFIC PAGE ELEMENTS
+@import "../scss/pages/work-categories-homepage";
 
+// PAGES
+@import "../scss/pages/work-categories";
+@import "../scss/pages/contact";
